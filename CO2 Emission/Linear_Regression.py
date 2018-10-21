@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# # Link to download the CSV file is "https://app.box.com/s/ln8oltpfktrnlg0jxpnac5iz7v4ln7so"
 df = pd.read_csv("E:/Pythoncode/Coursera/CO2 Emission/FuelConsumption.csv")
 
 cdf = df[["ENGINESIZE","CYLINDERS","FUELCONSUMPTION_COMB","CO2EMISSIONS"]]
